@@ -5,4 +5,9 @@ This repository contains work completed during Spring 2020 in Dr. Murray's DIG46
 The *ice* folder contains in-class exercises. 
 
 ## About Me
-This should be replaced.
+I am se
+
+## Merging
+- Item 1 [Google](www.google.com)
+- Item 2
+- Item 3
