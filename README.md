@@ -6,3 +6,6 @@ The *ice* folder contains in-class exercises.
 
 ## About Me
  I am seeking a position in the front-end web development field in an environment where I can grow and learn from my peers. I am a detail oriented, well organized individual, looking for a position where I can be creative as well as learn more about the work force in this field.
+ 
+## Conflict
+This
