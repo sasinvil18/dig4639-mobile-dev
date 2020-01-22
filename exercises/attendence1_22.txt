@@ -1,0 +1,22 @@
+INSTAGRAM FILTERS
+
+type of filters
+user access
+user photo library
+access to camera
+
+visual change 
+adds filtered photo to collection
+
+user selects photo from either library(user file system) or camera
+    if chooses library, will load phone library (user file system)
+    if choose camera, will bring up the camera app
+select a filter
+    if user would like, can select percentage of filter
+filter would be applied to photo
+can save photo or share it 
+
+Group Members:
+
+Tasfia Raviba: ta396618
+Alex Baez: AlexRexB
