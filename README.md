@@ -14,4 +14,4 @@ I am seeking a position in the front-end web development field in an environment
 
  
 ## Conflict
-This
+This section represents code on the server that isn't on the local repository.
