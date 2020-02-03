@@ -7,4 +7,4 @@ let adder = new Adder(
     }
 );
 
-console.log(adder.render);
+console.log(adder.render());
