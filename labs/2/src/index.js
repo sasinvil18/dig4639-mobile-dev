@@ -8,4 +8,6 @@ function runOnLoad()
     let newCard = new Card({content:"Sample value provided"});
     element.appendChild(newCard.render());
 }
+
+
 window.addEventListener("DOMContentLoaded", runOnLoad);
