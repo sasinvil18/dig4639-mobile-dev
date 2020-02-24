@@ -7,10 +7,7 @@ class Card extends React.Component{
         super(props);
         this.element = document.createElement('div');
         this.element.innerHTML=this.element.content;
-        let span = document.createElement('span');
-        this.element.appendChild(span);
-        span.innerHTML = this.props.content;
-        this.element.className = 'card';
+
 
     }
     render(){
