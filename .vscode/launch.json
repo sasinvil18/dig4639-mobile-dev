@@ -5,6 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch W13A Demo",
+            "program": "${workspaceFolder}/demo/w13a/demo.js",
+            "skipFiles": [
+              "<node_internals>/**"
+            ]
+          },
+      
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
