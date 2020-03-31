@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "cors": "^2.8.5",
+>>>>>>> 85308e767b6d679b23adec243374a9d10fde4199
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"
   }
