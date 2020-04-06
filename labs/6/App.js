@@ -9,13 +9,16 @@ const instructions = Platform.select({
 
 export default class App extends React.Component {
   render(){
+
+    const {navigate} = this.props.navigation;
+
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to The Mobile Dev Review Game!</Text>
+        <Text style={styles.welcome}>Welcome to The Mobile Development Review Game!</Text>
         <Button
           style = {styles.button}
           title = "Play"
-          onClick = {() => navigate("questions")}
+          onClick = {() => navigate("playGame")}
         />
       </View>
     );
@@ -27,7 +30,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fed8b1',
+    backgroundColor: '#add8e6',
   },
   welcome: {
     fontSize: 40,
