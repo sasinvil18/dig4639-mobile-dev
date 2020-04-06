@@ -1,0 +1,17 @@
+{
+  "name": "6",
+  "displayName": "6",
+  "expo": {
+    "name": "6",
+    "slug": "6",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

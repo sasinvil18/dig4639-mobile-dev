@@ -12,24 +12,24 @@ class App extends Card {
   }
 }*/
 
-state = {
+  state = {
 
-};
+  };
 
-async componentDidMount() {
-  const data = "https://api.weather.gov/gridpoints/MLB/25,69/forecast";
-  const obtained = await fetch(data);
-  const dataObtained = await obtained.json();
+  async componentDidMount() {
+    const data = "https://api.weather.gov/gridpoints/MLB/25,69/forecast";
+    const obtained = await fetch(data);
+    const dataObtained = await obtained.json();
+  }
+
+  render(){
+    return(
+      <div>
+        
+      </div>
+    );
+  }
 }
-
-render(){
-  return(
-    <div>
-      
-    </div>
-  );
-}
-
 
 
 export default App;

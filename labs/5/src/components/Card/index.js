@@ -9,7 +9,7 @@ class Card extends React.Component{
     }
     render(){
         return(
-            <Card content="This is a card!" />
+            <Card content="" />
         )
     }
 }
