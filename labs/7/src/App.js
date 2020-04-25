@@ -5,18 +5,21 @@ import Card from './components/Card/index.js';
 import './components/Card/index.css';
 
 class App extends Card {
-  /*render(){             
+  /*render(){
     return (
       <Card content="This is a card!"></Card>
     );
   }
 }*/
 
-  componentDidMount() {
+  state = {
+
+  };
+
+  async componentDidMount() {
     const data = "https://api.weather.gov/gridpoints/MLB/25,69/forecast";
     const obtained = await fetch(data);
     const dataObtained = await obtained.json();
-    this.setState(componentDidMount.data);
   }
 
   render(){
