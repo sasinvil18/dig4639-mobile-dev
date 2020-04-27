@@ -11,7 +11,9 @@ class Card extends React.Component{
         document.body.element.appendChild(this.cont);
         document.body.appendChild(this.element);*/
         this.element = document.createElement('h3');
-        this.content = document.createTextNode("This is a title")
+        this.content = document.createTextNode("This is a title");
+        this.element = document.createElement('p');
+        this.content = document.createTextNode("This is the content")
     }
 }
 

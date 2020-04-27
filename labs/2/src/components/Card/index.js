@@ -1,14 +1,17 @@
 import "./index.css";
 
-class Card{
+class Card {
     constructor (props){
-        super(props);
-        let element
+        this.props = props;
         this.element = document.createElement('div');
-        this.element.className = "card";
-        this.element.innerHTML= this.element.content;
-        document.body.element.appendChild(this.cont);
+        this.element.cont.innerHTML= this.element.content;
+        document.body.element.appendChild(this.element.cont);
         document.body.appendChild(this.element);
+        let span = document.createElement('span');
+        this.element.appendChild(span);
+        this.props.content = "Here is the the content"
+        span.innerHTML = this.props.content;
+        this.element.className = "card";
     }
 
     render() {

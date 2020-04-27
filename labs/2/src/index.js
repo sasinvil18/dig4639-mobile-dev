@@ -1,8 +1,10 @@
-import Card from "./components/Card/index.js" // TODO: Replace this with the correct import statement
+import Card from "./components/Card/index.js"
+
+let element;
 function runOnLoad()
 {
     // Create a container for us
-    let element = document.createElement("div");
+    element = document.createElement("div");
     element.id = "container";
     document.body.appendChild(element);
     let newCard = new Card({content:"Sample value provided"});
