@@ -1,4 +1,4 @@
-const Adder = require("./Adder.js");
+const Adder = include("./Adder.js");
 
 let adder = new Adder(
     {
@@ -6,5 +6,4 @@ let adder = new Adder(
         b: 15
     }
 );
-
 console.log(adder.render());
